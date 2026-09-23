@@ -287,12 +287,10 @@ function App() {
 
           </div>
 
-          <div className="about-stats">
+          {/* ABOUT STATS */}
+          {/* Projects 2+ CARD REMOVED */}
 
-            <div className="stat-card">
-              <strong>2+</strong>
-              <span>Projects</span>
-            </div>
+          <div className="about-stats">
 
             <div className="stat-card">
               <strong>15+</strong>
@@ -492,6 +490,7 @@ function App() {
               </div>
 
               {/* SERVICONNECT = LIVE DEMO */}
+
               {project.title === "ServiConnect" ? (
 
                 <a
