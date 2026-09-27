@@ -149,6 +149,15 @@ function App() {
             <a href="#tools">Tools</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+
+            {/* Resume */}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </div>
 
         </div>
@@ -178,8 +187,11 @@ function App() {
             development tools.
           </p>
 
+          {/* ================= HERO BUTTONS ================= */}
+
           <div className="hero-buttons">
 
+            {/* 1. VIEW MY PROJECTS */}
             <a
               href="#projects"
               className="btn primary-btn"
@@ -187,6 +199,17 @@ function App() {
               View My Projects
             </a>
 
+            {/* 2. VIEW RESUME */}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="btn secondary-btn"
+            >
+              View Resume
+            </a>
+
+            {/* 3. LINKEDIN */}
             <a
               href="https://www.linkedin.com/in/sandeep-reddy-mucha-60a07034b"
               target="_blank"
@@ -199,6 +222,8 @@ function App() {
           </div>
 
         </div>
+
+        {/* ================= CODE WINDOW ================= */}
 
         <div className="hero-card">
 
@@ -286,9 +311,6 @@ function App() {
             </a>
 
           </div>
-
-          {/* ABOUT STATS */}
-          {/* Projects 2+ CARD REMOVED */}
 
           <div className="about-stats">
 

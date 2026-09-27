@@ -629,3 +629,18 @@ footer a {
     text-align: center;
   }
 }
+
+/* RESUME BUTTON */
+
+.resume-btn {
+  border: 1px solid #8b5cf6;
+  color: #c4b5fd;
+  background: transparent;
+}
+
+.resume-btn:hover {
+  background: #8b5cf6;
+  color: white;
+  border-color: #8b5cf6;
+  transform: translateY(-3px);
+}
